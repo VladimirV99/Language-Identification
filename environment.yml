@@ -1,0 +1,11 @@
+name: language_identification
+dependencies:
+  - python=3.8
+  - notebook
+  - numpy
+  - pandas
+  - tensorflow
+  - scikit-learn
+  - matplotlib
+  - pydot
+  - nltk
