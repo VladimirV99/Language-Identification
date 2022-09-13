@@ -9,7 +9,7 @@ if not os.path.exists('models'):
 
 train_url = 'https://raw.githubusercontent.com/alvations/bayesmax/master/bayesmax/data/DSLCC-v2.0/train-dev/train.txt'
 devel_url = 'https://raw.githubusercontent.com/alvations/bayesmax/master/bayesmax/data/DSLCC-v2.0/train-dev/devel.txt'
-test_url = 'https://raw.githubusercontent.com/alvations/bayesmax/master/bayesmax/data/DSLCC-v2.0/test/test.txt'
+test_url = 'https://raw.githubusercontent.com/alvations/bayesmax/master/bayesmax/data/DSLCC-v2.0/gold/test-gold.txt'
 
 if not os.path.exists('datasets/DSLCC-v2.0/train.txt'):
     print('Downloading train set...')
