@@ -18,6 +18,14 @@ conda activate language_identification
 pip install -r requirements.txt
 ```
 
+## Downloading the dataset
+
+You can download the dataset using the following command:
+
+```bash
+python scripts/get_data.py
+```
+
 ## Running the notebook
 
 After activating the environment, run the following command to start the notebook:
@@ -26,7 +34,7 @@ After activating the environment, run the following command to start the noteboo
 jupyter-notebook .
 ```
 
-The entire project is contained in the Language_Ientification.ipynb file. You will always want to run the `Imports`, `Data`, `Preprocessing` and `Model` sections. If it your first time running the notebook, you will want to run `Make workspace` and `Download dataset` sections after the imports. `Hyperparameter search` and `Ensemble training` sections can be run independently, while `Testing` and `Inference` require the trained models to be saved on disk.
+The entire project is contained in the Language_Ientification.ipynb file. You will always want to run the `Imports`, `Data`, `Preprocessing` and `Model` sections.`Hyperparameter search` and `Ensemble training` sections can be run independently, while `Testing` and `Inference` require the trained models to be saved on disk.
 
 ## Running the gradio frontend
 
